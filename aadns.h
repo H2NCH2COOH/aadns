@@ -63,7 +63,6 @@ int AADNS_free_resolver(AADNSResolver* resolver);
  */
 int AADNS_set_resolver_opt_bind_to(AADNSResolver* resolver, struct sockaddr_in* addr, size_t addr_len);
 int AADNS_set_resolver_opt_over_socks5(AADNSResolver* resolver, struct sockaddr_in* addr, size_t addr_len);
-int AADNS_setresolver_opt_EDNS0(AADNSResolver* resolver, size_t size);
 
 
 
