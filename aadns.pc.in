@@ -1,0 +1,9 @@
+prefix=@prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libaadns
+Description: Another Asynchronous DNS resolving library
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -laadns
+Cflags: -I${includedir}
